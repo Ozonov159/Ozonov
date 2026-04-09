@@ -1,6 +1,12 @@
-print("BOT IS STARTING...")
-
 import asyncio
+from aiogram import Bot, Dispatcher
+
+TOKEN = "твой_токен"
+
+bot = Bot(token=TOKEN)
+dp = Dispatcher()
+
+print("BOT IS STARTING...")
 
 async def main():
     try:
